@@ -3,20 +3,28 @@
 <script type="text/javascript">
 new TradingView.widget({
   "autosize": true,
-  "symbol": "FX:EURUSD",
+  "symbol": "FX_IDC:EURUSD",
   "interval": "D",
-  "timezone": "Asia/Shanghai",
+  "timezone": "Etc/UTC",
   "theme": "White",
   "style": "1",
   "locale": "zh",
   "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
   "withdateranges": true,
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
-  "hideideas": true,
-  "studies": [
-    "MACD@tv-basicstudies"
-  ]
+  "watchlist": [
+    "INDEX:DXY",
+    "FX_IDC:EURUSD",
+    "FX_IDC:GBPUSD",
+    "TVC:GOLD"
+  ],
+  "hotlist": true,
+  "news": [
+    "headlines"
+  ],
+  "hideideas": true
 });
 </script>
 <!-- TradingView Widget END -->
